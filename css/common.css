@@ -1,0 +1,11 @@
+#login-wrapper form#caspioform > div {
+    display: block !important;
+}
+
+#login-wrapper section {
+    width: 100% !important;
+}
+
+[id*="newcb"] {
+    display: none !important;
+}
