@@ -22,11 +22,16 @@
             </li>
 
             <li class="sidebar-item <?= $_SERVER['REQUEST_URI'] == '/tm-app/user/new-task.php' ? 'active' : '' ?>">
-                <a class="sidebar-link" href="/tm-app/manager/new-task.php">
+                <a class="sidebar-link" href="/tm-app/user/new-task.php">
                     <i class="align-middle" data-feather="plus"></i> <span class="align-middle">New Task</span>
                 </a>
             </li>
 
+            <li class="sidebar-item <?= $_SERVER['REQUEST_URI'] == '/tm-app/user/search-tasks.php' ? 'active' : '' ?>">
+                <a class="sidebar-link" href="/tm-app/user/search-tasks.php">
+                    <i class="align-middle" data-feather="search"></i> <span class="align-middle">Search Tasks</span>
+                </a>
+            </li>
            
         </ul>
     </div>

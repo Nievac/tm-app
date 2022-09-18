@@ -33,7 +33,7 @@
 
             <li class="sidebar-item <?= $_SERVER['REQUEST_URI'] == '/tm-app/manager/users' ? 'active' : '' ?>">
                 <a class="sidebar-link" href="/tm-app/manager/users">
-                    <i class="align-middle" data-feather="book"></i> <span class="align-middle">Manage Users</span>
+                    <i class="align-middle" data-feather="users"></i> <span class="align-middle">Manage Users</span>
                 </a>
             </li>
 

@@ -17,6 +17,15 @@
                             <div class="card-body">
                                 <div class="m-sm-4" id="login-wrapper">
                                     <script type="text/javascript" src="https://c2dcf332.caspio.com/dp/7d9cb00090a4104babe247da9ce1/emb"></script>
+                                    <div id="already_activated" style="display: none;" class="row text-center">
+                                        <p class="fw-bold">
+                                            The account has been already activated.
+                                        </p>
+                                             
+                                        <p class="fw-bold">
+                                            Return to <a href="/tm-app/">login</a>.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -26,9 +35,16 @@
             </div>
         </div>
     </main>
-
-    <script src="js/app.js"></script>
-
-</body>
-
-</html>
+    <script>
+        document.addEventListener('DataPageReady', function (event) {
+            if (event.detail.appKey == '7d9cb00090a4104babe247da9ce1') {
+                if($('#cbParamVirtual1').val() == 'Yes') {
+                    $('#caspioform, .lead').hide();
+                    $('#already_activated').show();
+                } else {      
+                    $('.cbFormPassword').val('');
+                }
+            } 
+        });
+    </script>
+<?php include('partials/footer.php') ?>
