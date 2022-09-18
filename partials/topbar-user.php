@@ -14,12 +14,12 @@
                     <i data-feather="user"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end">
-                    <a class="dropdown-item" href="/tm-app/manager/profile">
+                    <a class="dropdown-item" href="/tm-app/user/profile">
                         <i class="align-middle me-1"
                             data-feather="user"></i> 
                             Profile
                     </a>
-                    <a class="dropdown-item" href="/tm-app/manager/profile/change-password.php">
+                    <a class="dropdown-item" href="/tm-app/user/profile/change-password.php">
                         <i class="align-middle me-1"
                             data-feather="key"></i> 
                             Change Password
