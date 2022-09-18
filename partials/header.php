@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,11 +15,12 @@
 
     <title>Task Management</title>
 
-    <link href="/tm/css/app.css" rel="stylesheet">
-    <link href="/tm/css/common.css" rel="stylesheet">
+    <link href="/tm-app/css/app.css" rel="stylesheet">
+    <link href="/tm-app/css/common.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
        
 
     </style>
 </head>
+<body>
